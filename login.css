@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Tilt Neon', sans-serif;
+}
+label,input,a{
+display: block;
+margin-bottom: 10px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: aqua;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color: red;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: maroon;
+}
+#new{
+    text-align: center;
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 30%;
+    border-radius: 5px;
+    background-color: black;
+    color: chartreuse ;
+    font-size: 20px;
+}
+#cancle{
+    color: aquamarine;
+    background-color: cornflowerblue;
+}
+#icon{
+   position: relative;
+}
+#pass{
+    position: relative;
+}
+.fa-solid{
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.fa-lock{
+    color: black;
+    position: absolute;
+    top: 65%;
+    left: 2%;
+}
